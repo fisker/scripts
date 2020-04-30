@@ -1,16 +1,26 @@
 # Scripts
 
 
-# CI
+# Github Actions
 
-- [Enable Xvfb](./ci/enable-xvfb.sh) 
+- [Enable Xvfb](./github-actions/enable-xvfb.sh) 
 
 ```bash
-bash <(curl -s -L https://github.com/fisker/scripts/raw/master/ci/enable-xvfb.sh)
+bash <(curl -s -L https://github.com/fisker/scripts/raw/master/github-actions/enable-xvfb.sh)
 ```
 
-- [Install puppeteer missing dependencies](./ci/install-puppeteer-dependencies.sh) 
+- [Install puppeteer missing dependencies](./github-actions/puppeteer-dependencies.sh) 
 
 ```bash
-bash <(curl -s -L https://github.com/fisker/scripts/raw/master/ci/install-puppeteer-dependencies.sh)
+bash <(curl -s -L https://github.com/fisker/scripts/raw/master/github-actions/puppeteer-dependencies.sh)
+```
+
+
+
+# Circleci
+
+- [Install canvas missing dependencies](./circleci/canvas-dependencies.sh) 
+
+```bash
+bash <(curl -s -L https://github.com/fisker/scripts/raw/master/circleci/canvas-dependencies.sh)
 ```
