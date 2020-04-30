@@ -24,3 +24,9 @@ bash <(curl -s -L https://github.com/fisker/scripts/raw/master/github-actions/pu
 ```bash
 bash <(curl -s -L https://github.com/fisker/scripts/raw/master/circleci/canvas-dependencies.sh)
 ```
+
+- [Install puppeteer missing dependencies](./circleci/puppeteer-dependencies.sh) 
+
+```bash
+bash <(curl -s -L https://github.com/fisker/scripts/raw/master/circleci/puppeteer-dependencies.sh)
+```
